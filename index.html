@@ -92,6 +92,7 @@
       width: 100%;
       height: auto;
       max-height: 520px;
+      aspect-ratio: auto;
       margin-inline: auto;
       object-fit: contain;
     }
@@ -130,7 +131,8 @@
     .affiliate-reminder strong { color: var(--ink); }
     .banner-card.is-landscape .banner-visual img { width: min(100%, 1000px); }
     .banner-card.is-landscape .banner-copy { padding-top: 0; }
-    .banner-card.is-broken .banner-visual { display: none; }
+    .banner-card.is-broken .banner-visual { display: flex; }
+    .banner-card.is-broken .banner-visual > a { display: none; }
     .banner-card.is-broken { grid-template-columns: 1fr; }
     .banner-card.is-broken .banner-copy { min-height: 100%; }
     .fallback-label {
@@ -206,7 +208,7 @@
         <article class="banner-card is-featured" data-banner>
           <div class="banner-visual">
             <a href="https://member.jagoanhosting.com/aff.php?aff=8378" target="_blank" rel="sponsored nofollow noopener" aria-label="Buka informasi Hosting Murah Jagoan Hosting melalui tautan afiliasi">
-              <img src="https://www.jagoanhosting.com/blog/wp-content/uploads/2023/08/Hosting-Murah-Middle-Post-1.png" alt="Banner informasi Hosting Murah dari Jagoan Hosting" width="1200" height="675" fetchpriority="high" data-banner-image>
+              <img src="https://www.jagoanhosting.com/blog/wp-content/uploads/2023/08/Hosting-Murah-Middle-Post-1.png" alt="Banner informasi Hosting Murah dari Jagoan Hosting" fetchpriority="high" data-banner-image>
             </a>
             <div class="fallback-label" aria-hidden="true">Banner tidak dapat dimuat. Informasi dan tautan pilihan tetap tersedia di samping.</div>
           </div>
