@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "jagoan-hosting-affiliate.vercel.app"
+        }
+      ],
+      "destination": "https://thechocostudios.bond/recommended-tools/jagoan-hosting/:path*",
+      "permanent": true
+    }
+  ]
+}
